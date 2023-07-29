@@ -9,6 +9,7 @@ urls.forEach(url =>
                 .then(_ =>
 `Title: ${_.title}
 Author: ${_.author}
+Url: ${_.url}
 Content: ${_.content}`
                 )
                 .then(l)
